@@ -59,7 +59,7 @@ O exemplo a seguir foi realizado utilizando o navegador [Firefox](https://www.mo
 2. Na seção de "Armazenameto", acesse a aba de "Cookies".
 3. Na aba de "Cookies", encontre o cookie por nome `sessionid` e copie seu valor.
 4. Renomeie (ou copie/crie em novo arquivo) o arquivo `.env_exemplo` deste repositório para `.env`
-5. Dentro do arquivo `.env` adicione o valor obtido de `sessionid` apos o texto `INSTA_SESSION_ID=` na mesma linha do mesmo. (substitua `SUBSTITUA_ESSE_TEXTO_PELO_SESSIONID` pelo valor da `sessionid`).
+5. Dentro do arquivo `.env` adicione o valor obtido de `sessionid` apos o texto `INSTA_SESSION_ID=` na mesma linha do mesmo.
 
 ### Execução
 No arquivo `exemplo.py` exite um código que utiliza-se de funções de apoio para demonstrar uma pequena parte da capacidade do instagrapi. Na atual configuração, a execução deste arquivo tem por objetivo obter informações de 15 posts do perfil do [instagram](https://www.instagram.com/instagram/) e criar um arquivo csv no mesmo diretório, que contem parte das informações referentes aos 15 posts acessados.
