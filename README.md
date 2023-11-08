@@ -21,7 +21,7 @@ git clone https://github.com/neocrz/test-instagrapi
 
 #### Acessar a pasta clonada
 
-```
+```console
 cd test-instagrapi
 ```
 #### Criar um ambiente do Python.
@@ -36,6 +36,15 @@ Linux
 souce ./venv/bin/activate
 ```
 
+Windows (PowerShell)
+```console
+.\venv\Scripts\Activate.ps1
+```
+
+Windows (Command Prompt)
+```console
+.\venv\Scripts\activate.bat
+```
 #### Instalar as dependencias.
 ```console
 pip install -r requirements.txt
