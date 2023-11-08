@@ -62,7 +62,7 @@ O exemplo a seguir foi realizado utilizando o navegador [Firefox](https://www.mo
 5. Dentro do arquivo `.env` adicione o valor obtido de `sessionid` após o texto `INSTA_SESSION_ID=`.
 
 ### Execução
-No arquivo `exemplo.py` exite um código que utiliza-se de funções de apoio para demonstrar uma pequena parte da capacidade do instagrapi. Na atual configuração, a execução deste arquivo tem por objetivo obter informações de 15 posts do perfil do [instagram](https://www.instagram.com/instagram/) e criar um arquivo csv no mesmo diretório, que contem parte das informações referentes aos 15 posts acessados.
+No arquivo `exemplo.py` exite um código que utiliza-se de funções de apoio para demonstrar uma pequena parte da capacidade do instagrapi. Na atual configuração, a execução deste arquivo tem por objetivo obter informações de 15 posts do perfil do [instagram](https://www.instagram.com/instagram/) e criar um arquivo csv no mesmo diretório, que contém parte das informações referentes aos 15 posts acessados.
 
 Para executar o código é só executar:
 
