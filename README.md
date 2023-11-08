@@ -33,7 +33,7 @@ python -m venv venv
 
 Linux
 ```console
-souce ./venv/bin/activate
+source ./venv/bin/activate
 ```
 
 Windows (PowerShell)
