@@ -2,7 +2,9 @@
 Código de teste de utilização do [instagrapi](https://github.com/subzeroid/instagrapi). O Instagrapi é uma API não oficial do [Instagram](https://www.instagram.com).
 
 ## Utilização
-Para utilizar o instagrapi na configuração deste repositório, é necessário realizar o login com uma conta do instagram. A sua utilização é por conta e risco do próprio usuário. **Esse código é disponibilizado sem nenhum tipo de garantia**.
+Para utilizar o instagrapi na configuração deste repositório, é necessário realizar o login com uma conta do instagram. 
+
+**Esse código é disponibilizado sem nenhum tipo de garantia! A sua utilização é por conta e risco do próprio usuário.**
 
 As etapas a seguir contém orientações para criação de um ambiente capaz de rodar o código presente no arquivo `exemplo.py` deste repositório.
 
