@@ -10,7 +10,7 @@ As etapas a seguir contém orientações para criação de um ambiente capaz de 
 
 ### Dependencias
 
-É necessário ter o [Python](https://www.python.org/) instalado e disponível.
+É necessário ter o [Git](https://git-scm.com/) e [Python](https://www.python.org/) instalados, disponíveis e configurados para realizar o clone do repositório e criação do ambiente (`venv`) e utilização do `pip`.
 
 Com o auxilio de um terminal, execute os comandos a seguir.
 #### Clonar o repositório
