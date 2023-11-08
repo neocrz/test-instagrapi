@@ -12,7 +12,7 @@ As etapas a seguir contém orientações para criação de um ambiente capaz de 
 
 É necessário ter o [Git](https://git-scm.com/) e [Python](https://www.python.org/) instalados, disponíveis e configurados para realizar o clone do repositório e criação do ambiente (`venv`) e utilização do `pip`.
 
-Com o auxilio de um terminal, execute os comandos a seguir.
+Com o auxílio de um terminal, execute os comandos a seguir.
 #### Clonar o repositório
 
 ```console
@@ -24,7 +24,7 @@ git clone https://github.com/neocrz/test-instagrapi
 ```console
 cd test-instagrapi
 ```
-#### Criar um ambiente do Python.
+#### Criar um ambiente Python.
 
 ```console
 python -m venv venv
@@ -45,13 +45,13 @@ Windows (Command Prompt)
 ```console
 .\venv\Scripts\activate.bat
 ```
-#### Instalar as dependencias.
+#### Instalar as dependências.
 ```console
 pip install -r requirements.txt
 ```
 
 ### Obtenção do `sessionid`
-Neste código experimental, foi realizado o login do instagram por meio da `sessionid` presente em navegadores com seções logadas no instagram.
+Neste código experimental, foi realizado o login do Instagram por meio da `sessionid` presente em navegadores com seções logadas no instagram.
 
 O exemplo a seguir foi realizado utilizando o navegador [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) em Sistema Operacional [GNU/Linux](https://pt.wikipedia.org/wiki/GNU/Linux) ([Linux Mint](https://linuxmint.com/)). As etapas tomadas podem ser diferentes para outros ambientes e navegadores.
 
@@ -62,7 +62,7 @@ O exemplo a seguir foi realizado utilizando o navegador [Firefox](https://www.mo
 5. Dentro do arquivo `.env` adicione o valor obtido de `sessionid` após o texto `INSTA_SESSION_ID=`.
 
 ### Execução
-No arquivo `exemplo.py` exite um código que utiliza-se de funções de apoio para demonstrar uma pequena parte da capacidade do instagrapi. Na atual configuração, a execução deste arquivo tem por objetivo obter informações de 15 posts do perfil do [instagram](https://www.instagram.com/instagram/) e criar um arquivo csv no mesmo diretório, que contém parte das informações referentes aos 15 posts acessados.
+No arquivo `exemplo.py` exite um código que utiliza-se de funções de apoio para demonstrar uma pequena parte da capacidade do instagrapi. Na atual configuração, a execução deste arquivo tem por objetivo obter informações de 15 posts do perfil do [Instagram](https://www.instagram.com/instagram/) e criar um arquivo csv no mesmo diretório que contém parte das informações referentes aos 15 posts acessados.
 
 Para executar o código é só executar:
 
@@ -78,7 +78,7 @@ python exemplo.py
 
 
 #### `download_media(username: str, qtdmedia: int, output: str = None) -> dict`
-- Baixa e salva a quantidade de posts conforme `qtdmedia` do perfil `username` e Salva em `save_path` ou no diretório atual se o valor de `save_path` for `None`
+- Baixa a quantidade de posts conforme `qtdmedia` do perfil `username` e salva em `save_path` ou no diretório atual se o valor de `save_path` for `None`
 - Retorna um dicionário contendo os dados das medias.
 
 
