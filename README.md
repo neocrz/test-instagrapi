@@ -79,8 +79,8 @@ python exemplo.py
 
 #### `download_media(username: str, qtdmedia: int, output: str = None) -> dict`
 - Baixa a quantidade de posts conforme `qtdmedia` do perfil `username` e salva em `save_path` ou no diretório atual se o valor de `save_path` for `None`
-- Retorna um dicionário contendo os dados das medias.
+- Retorna um dicionário contendo os dados das *medias*.
 
 
 #### `getinfo_media(username: str, qtdmedia: int) -> dict`
-- Retorna um dicionário de informações das medias de acordo com a quantidade de posts conforme `qtdmedia` do perfil `username`.
+- Retorna um dicionário de informações das *medias* de acordo com a quantidade de posts conforme `qtdmedia` do perfil `username`.
