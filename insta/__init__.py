@@ -83,7 +83,7 @@ def download_media(username: str, qtdmedia: int, output: str = None) -> dict:
         print(f"http://instagram.com/p/{m.code}/", os.path.basename(path))
 
         data.append({
-            'pk': album_media['pk'],
+            'pk': media_dict['pk'],
             'id': media_dict['id'],
             'user': media_dict['user']['username'],
             'like_count': media_dict['like_count'],
